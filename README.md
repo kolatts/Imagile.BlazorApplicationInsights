@@ -1,9 +1,8 @@
-[![Demo](https://img.shields.io/badge/Live-Demo-Blue?style=flat-square)](https://BlazorApplicationInsights.netlify.app/)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Imagile.BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/dt/Imagile.BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights)
-![](https://github.com/kolatts/BlazorApplicationInsights/workflows/Create%20Release/badge.svg)
+# Blazor Application Insights (Blazor WASM)
 
-Application Insights for Blazor web applications
+Application Insights for Blazor WebAssembly applications
+
+> **Note:** This is a fork of [BlazorApplicationInsights](https://github.com/IvanJosipovic/BlazorApplicationInsights) ([NuGet](https://www.nuget.org/packages/BlazorApplicationInsights)) focused specifically on Blazor WebAssembly (WASM) scenarios.
 
 [Sample Projects](https://github.com/kolatts/BlazorApplicationInsights/tree/master/samples)
 

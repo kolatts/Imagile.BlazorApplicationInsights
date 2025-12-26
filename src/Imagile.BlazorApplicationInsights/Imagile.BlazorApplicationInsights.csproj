@@ -6,7 +6,7 @@
     <Title>Imagile.BlazorApplicationInsights</Title>
     <PackageId>Imagile.BlazorApplicationInsights</PackageId>
     <Description>Application Insights for Blazor web applications</Description>
-    <Authors>Ivan Josipovic</Authors>
+    <Authors>Sunny Kolattukudy</Authors>
     <PackageProjectUrl>https://blazorapplicationinsights.netlify.app</PackageProjectUrl>
     <PackageTags>Blazor;Application Insights</PackageTags>
     <RepositoryUrl>https://github.com/kolatts/BlazorApplicationInsights</RepositoryUrl>
