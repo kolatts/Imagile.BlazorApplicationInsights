@@ -3,7 +3,7 @@ using System.Text.Json;
 using System;
 using System.Text.Json.Serialization;
 
-namespace BlazorApplicationInsights.Models;
+namespace Imagile.BlazorApplicationInsights.Models;
 
 /// <summary>
 /// Source: https://github.com/microsoft/ApplicationInsights-JS/blob/main/shared/AppInsightsCommon/src/Interfaces/IPageViewPerformanceTelemetry.ts

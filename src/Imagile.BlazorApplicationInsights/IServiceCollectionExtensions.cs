@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Models;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorApplicationInsights;
 
 [PublicAPI]
 public static class IServiceCollectionExtensions

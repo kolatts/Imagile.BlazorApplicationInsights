@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace BlazorApplicationInsights.Models;
+namespace Imagile.BlazorApplicationInsights.Models;
 
 /// <summary>
 /// Telemetry item

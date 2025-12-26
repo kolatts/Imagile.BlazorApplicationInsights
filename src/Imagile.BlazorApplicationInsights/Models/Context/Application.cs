@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BlazorApplicationInsights.Models.Context;
+namespace Imagile.BlazorApplicationInsights.Models.Context;
 
 /// <summary>
 /// Source: https://github.com/microsoft/ApplicationInsights-JS/blob/main/shared/AppInsightsCommon/src/Interfaces/Context/IApplication.ts

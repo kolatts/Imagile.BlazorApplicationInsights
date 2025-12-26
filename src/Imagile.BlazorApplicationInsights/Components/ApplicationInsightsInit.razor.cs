@@ -2,17 +2,17 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Logging;
 using Microsoft.JSInterop;
 
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorApplicationInsights;
 
 /// <summary>
 /// BlazorApplicationInsights initialization component
 /// </summary>
-public partial class ApplicationInsightsInit
+public partial class ApplicationInsightsInit : ComponentBase
 {
     [Inject] IApplicationInsights ApplicationInsights { get; set; }
     [Inject] private IJSRuntime JSRuntime { get; set; }

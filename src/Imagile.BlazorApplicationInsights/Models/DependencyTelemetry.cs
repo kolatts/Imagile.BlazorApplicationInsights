@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace BlazorApplicationInsights.Models;
+namespace Imagile.BlazorApplicationInsights.Models;
 
 /// <summary>
 /// Dependency Telemetry

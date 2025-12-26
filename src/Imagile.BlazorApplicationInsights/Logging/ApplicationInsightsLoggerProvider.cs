@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Interfaces;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 // ReSharper disable once CheckNamespace
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorApplicationInsights;
 
 /// <summary>LoggerProvider implementation for logging to Application Insights in Blazor Client-Side (WASM) applications</summary>
 [PublicAPI]

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BlazorApplicationInsights.Models;
+namespace Imagile.BlazorApplicationInsights.Models;
 
 /// <summary>
 /// Exception interface used as primary parameter to trackException

@@ -1,7 +1,7 @@
 ﻿using Microsoft.JSInterop;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights.Interfaces;
+namespace Imagile.BlazorApplicationInsights.Interfaces;
 
 public class CookieMgr
 {

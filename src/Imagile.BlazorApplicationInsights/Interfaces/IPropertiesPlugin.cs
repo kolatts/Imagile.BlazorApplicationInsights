@@ -1,8 +1,8 @@
-﻿using BlazorApplicationInsights.Models;
+﻿using Imagile.BlazorApplicationInsights.Models;
 using System.ComponentModel;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights.Interfaces;
+namespace Imagile.BlazorApplicationInsights.Interfaces;
 
 [EditorBrowsable(EditorBrowsableState.Never)]
 [Browsable(false)]

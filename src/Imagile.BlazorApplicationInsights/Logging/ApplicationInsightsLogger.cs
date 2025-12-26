@@ -7,11 +7,11 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using JetBrains.Annotations;
 using Microsoft.Extensions.DependencyInjection;
-using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Models;
 
 // ReSharper disable once CheckNamespace
-namespace BlazorApplicationInsights;
+namespace Imagile.BlazorApplicationInsights;
 
 /// <summary>Logger implementation for logging to Application Insights in Blazor Client-Side (WASM) applications</summary>
 [PublicAPI]

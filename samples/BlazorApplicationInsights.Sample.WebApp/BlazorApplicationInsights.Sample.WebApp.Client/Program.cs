@@ -1,4 +1,4 @@
-using BlazorApplicationInsights;
+using Imagile.BlazorApplicationInsights;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

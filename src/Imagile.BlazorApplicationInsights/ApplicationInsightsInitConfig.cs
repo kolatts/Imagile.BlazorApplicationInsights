@@ -1,9 +1,9 @@
-﻿using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+﻿using Imagile.BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Models;
 using System;
 using System.Threading.Tasks;
 
-namespace BlazorApplicationInsights
+namespace Imagile.BlazorApplicationInsights
 {
     public class ApplicationInsightsInitConfig
     {

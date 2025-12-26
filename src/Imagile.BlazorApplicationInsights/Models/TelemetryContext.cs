@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using BlazorApplicationInsights.Models.Context;
-using OperatingSystem = BlazorApplicationInsights.Models.Context.OperatingSystem;
+using Imagile.BlazorApplicationInsights.Models.Context;
+using OperatingSystem = Imagile.BlazorApplicationInsights.Models.Context.OperatingSystem;
 
-namespace BlazorApplicationInsights.Models;
+namespace Imagile.BlazorApplicationInsights.Models;
 
 /// <summary>
 /// Source: https://github.com/microsoft/ApplicationInsights-JS/blob/main/shared/AppInsightsCommon/src/Interfaces/ITelemetryContext.ts
