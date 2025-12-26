@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BlazorApplicationInsights\BlazorApplicationInsights.csproj" />
+    <ProjectReference Include="..\..\src\Imagile.BlazorApplicationInsights\Imagile.BlazorApplicationInsights.csproj" />
     <ProjectReference Include="..\BlazorApplicationInsights.Sample.Components\BlazorApplicationInsights.Sample.Components.csproj" />
   </ItemGroup>
 
