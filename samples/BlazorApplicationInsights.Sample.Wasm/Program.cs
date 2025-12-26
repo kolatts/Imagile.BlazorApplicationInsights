@@ -1,4 +1,5 @@
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorApplicationInsights;
+using Imagile.BlazorApplicationInsights.Models;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

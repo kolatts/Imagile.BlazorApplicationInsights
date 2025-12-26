@@ -1,5 +1,5 @@
-using BlazorApplicationInsights.Interfaces;
-using BlazorApplicationInsights.Models;
+using Imagile.BlazorApplicationInsights.Interfaces;
+using Imagile.BlazorApplicationInsights.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Logging;
 

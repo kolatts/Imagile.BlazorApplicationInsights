@@ -81,7 +81,7 @@ jobs:
       run: dotnet publish -c Release
 
     - name: Deploy
-      run: npx netlify deploy ${{ (github.ref == 'refs/heads/master' && '--prod') || '' }} --json -d samples/BlazorApplicationInsights.Sample.Wasm/bin/Release/net8.0/publish/wwwroot
+      run: npx netlify deploy ${{ (github.ref == 'refs/heads/master' && '--prod') || '' }} --json -d samples/BlazorApplicationInsights.Sample.Wasm/bin/Release/net10.0/publish/wwwroot
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -93,7 +93,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Dotnet Pack
-      working-directory: src/BlazorApplicationInsights
+      working-directory: src/Imagile.BlazorApplicationInsights
       run: dotnet pack -c Release -p:Version=${{ (steps.semantic.outputs.new_release_published && steps.semantic.outputs.new_release_version) || '0.0.1' }}
 
     - name: NuGet login (OIDC → temp API key)
@@ -110,5 +110,5 @@ jobs:
 
     - name: Dotnet Nuget Push
       if: steps.semantic.outputs.new_release_published == 'true'
-      working-directory: src/BlazorApplicationInsights/bin/Release
+      working-directory: src/Imagile.BlazorApplicationInsights/bin/Release
       run: dotnet nuget push *.nupkg -s https://api.nuget.org/v3/index.json -k ${{steps.login.outputs.NUGET_API_KEY}}

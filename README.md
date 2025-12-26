@@ -1,15 +1,15 @@
 [![Demo](https://img.shields.io/badge/Live-Demo-Blue?style=flat-square)](https://BlazorApplicationInsights.netlify.app/)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/BlazorApplicationInsights)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/dt/BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/BlazorApplicationInsights)
-![](https://github.com/IvanJosipovic/BlazorApplicationInsights/workflows/Create%20Release/badge.svg)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Imagile.BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/dt/Imagile.BlazorApplicationInsights.svg?style=flat-square)](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights)
+![](https://github.com/kolatts/BlazorApplicationInsights/workflows/Create%20Release/badge.svg)
 
 Application Insights for Blazor web applications
 
-[Sample Projects](https://github.com/IvanJosipovic/BlazorApplicationInsights/tree/master/samples)
+[Sample Projects](https://github.com/kolatts/BlazorApplicationInsights/tree/master/samples)
 
 ## Features
 
-- .NET 8/9 and Blazor Web App Support
+- .NET 10 and Blazor Web App Support
 - Automatically triggers Track Page View on route changes
 - ILoggerProvider which sends all the logs to App Insights (Wasm only)
 - Programmatically update settings, including the Connection String
@@ -35,8 +35,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor Web App
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorApplicationInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorApplicationInsights```
 - Add call to Program.cs in the root and Client project if one exists
 
   ```csharp
@@ -71,8 +71,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor WebAssembly Standalone App
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorApplicationInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorApplicationInsights```
 - Add call to Program.cs and set the ConnectionString
 
   ```csharp
@@ -104,8 +104,8 @@ Application Insights for Blazor web applications
 
 ## Install on Blazor WebAssembly Standalone App - Manual
 
-- Add [BlazorApplicationInsights NuGet](https://www.nuget.org/packages/BlazorApplicationInsights) to the Client project
-  - ```dotnet add package BlazorApplicationInsights```
+- Add [Imagile.BlazorApplicationInsights NuGet](https://www.nuget.org/packages/Imagile.BlazorApplicationInsights) to the Client project
+  - ```dotnet add package Imagile.BlazorApplicationInsights```
 - Add call to Program.cs
 
   ```csharp
