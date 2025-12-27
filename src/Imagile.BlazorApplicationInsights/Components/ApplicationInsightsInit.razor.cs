@@ -51,12 +51,13 @@ public partial class ApplicationInsightsInit : ComponentBase
             {
                 try
                 {
-                    await ApplicationInsights.UpdateCfg(Config.Config, false);
+                    // Skip UpdateCfg for WASM standalone - config is already in the rendered snippet (line 35)
+                    // The SDK stub does not have updateCfg in its queue proxy, causing errors before SDK loads
                     await ApplicationInsights.TrackPageView();
                 }
                 catch (Exception ex)
                 {
-                    Logger.LogError(ex, "Failed to update configuration and track page view. An ad blocker or CSP may be blocking the App Insights script.");
+                    Logger.LogError(ex, "Failed to track page view. An ad blocker or CSP may be blocking the App Insights script.");
                 }
             }
         }
