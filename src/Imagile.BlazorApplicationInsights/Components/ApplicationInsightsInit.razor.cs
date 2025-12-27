@@ -45,7 +45,7 @@ public partial class ApplicationInsightsInit : ComponentBase
 
         if (firstRender && IsWasmStandalone)
         {
-            await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/BlazorApplicationInsights/BlazorApplicationInsights.lib.module.js");
+            await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/Imagile.BlazorApplicationInsights/BlazorApplicationInsights.lib.module.js");
 
             if (Config.Config != null)
             {
