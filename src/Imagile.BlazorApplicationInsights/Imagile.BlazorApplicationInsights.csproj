@@ -20,6 +20,7 @@
     <IsTrimmable>false</IsTrimmable>
     <StaticWebAssetFingerprintingEnabled>false</StaticWebAssetFingerprintingEnabled>
     <StaticWebAssetsFingerprintContent>false</StaticWebAssetsFingerprintContent>
+    <StaticWebAssetBasePath>BlazorApplicationInsights</StaticWebAssetBasePath>
   </PropertyGroup>
 
   <ItemGroup>
